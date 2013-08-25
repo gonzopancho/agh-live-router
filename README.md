@@ -1,5 +1,5 @@
-[AGH Live Router](http://piotrjurkiewicz.github.com/agh-live-router/)
-=================
+AGH Live Router
+===============
 
 AGH Live Router is a Debian derivative distribtion for experimental routing. It consists of Click Modular Router, running in kernel mode, and XORP routing suite. System is already configured and ready-to-use, distributed as an .iso image.
 
@@ -89,7 +89,7 @@ b) Moreover, require(package_name); declaration should appear in Click's configu
 Download
 --------
 
-[Download ISO image](https://mega.co.nz/#!OEIjhQhA!Cs1t5nstf0xzClakUT8vJwUcX5YSaLE4IzRzW0JPAr0)
+[Download ISO image](http://www.dropbox.com/sh/km4saicel8v8r3q/WwnTsCJIsl)
 
 
 Web access
