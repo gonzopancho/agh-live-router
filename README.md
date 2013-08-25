@@ -55,6 +55,7 @@ In case of AGH Live Router system, configuration file should contain the followi
 
 The click_generator file contains an AWK script, which generates the kernel-level Click configuration from the XORP configuration. The script is called on-demand by the FEA whenever the network interface information changes. The default script you can find [there](https://github.com/piotrjurkiewicz/agh-live-router/blob/master/configurations/simple/config/click_generator). You may not want to modify the generator script, unless you are making significant changes in router's forwarding mechanisms.
 
+
 Running in VM
 -------------
 
@@ -63,6 +64,7 @@ You can also run system directly from the ISO file in a virtual machine. We reco
 ![adapters](https://raw.github.com/piotrjurkiewicz/agh-live-router/master/screenshots/adapters.png)
 
 If you want to put configuration and package files into an ISO image (so the configuration will be automatically loaded on VM start), you can use UltraISO application (for Windows). It has a feature of editing ISO images and adding additional files.
+
 
 Packages
 --------
@@ -85,10 +87,17 @@ b) Moreover, require(package_name); declaration should appear in Click's configu
         printf("\n\n");
     }
 
+
 Download
 --------
 
 [Download ISO image](https://mega.co.nz/#!NcVBATaB!Qg6QmDpsPr7mO2iKSovFsDdSCwt5aaP07B9St3n8Epc)
+
+
+Web access
+----------
+
+By default, AGH Live Router starts HTTP server in the /click filesystem directory. You can easily access handlers through a web browser, gather data from click elements and modify its settings.
 
 
 Credentials

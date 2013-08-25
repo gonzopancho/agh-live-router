@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Start HTTP server for clickfs interaction
+cd /click
+python /etc/xorp/click_http_server.py 80 &
